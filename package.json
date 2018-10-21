@@ -1,0 +1,38 @@
+{
+  "name": "@jin-hwang/load-monitoring-dashboard-webapp",
+  "version": "0.1.0",
+  "description": "A simple load monitoring web dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "^2.0.5"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.4",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.25.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "webpack-dev-server": "^3.1.9",
+    "webpack": "^4.21.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "author": "Jin Hwang",
+  "license": "MIT"
+}
